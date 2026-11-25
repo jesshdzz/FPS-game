@@ -3513,6 +3513,7 @@ GameObject:
   - component: {fileID: 7549588825353156927}
   - component: {fileID: 1732727468975776815}
   - component: {fileID: 2658754299331504208}
+  - component: {fileID: 4212359510703881069}
   m_Layer: 0
   m_Name: YBot
   m_TagString: Player
@@ -3715,6 +3716,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponChangeBeginner
   leftHand: {fileID: 6627942032379530034}
   rightHand: {fileID: 5836289772816442865}
+  aimObjects:
+  - {fileID: 4350317432899670747}
+  - {fileID: 4952326376820200959}
+  aimTarget: {fileID: 0}
   rig: {fileID: 1732727468975776815}
   leftTargetWeapon1: {fileID: 5369875003566171351}
   rightTargetWeapon1: {fileID: 5790881690547033772}
@@ -3725,6 +3730,28 @@ MonoBehaviour:
   weapon1: {fileID: 6960852277966202069}
   weapon2: {fileID: 1263688240868923087}
   weapon3: {fileID: 9108882244718689064}
+--- !u!114 &4212359510703881069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4101622346600769961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: PhotonUnityNetworking::Photon.Pun.PhotonView
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &4138113836766448492
 GameObject:
   m_ObjectHideFlags: 0
